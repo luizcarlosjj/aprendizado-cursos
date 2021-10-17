@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(40, 115, 255);
+    font: normal 16pt Arial;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10PX;
+    margin: auto;
+    width: 500px;
+    box-shadow: 4px 4px 10px black;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-style: italic;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    margin-top: 10px;
+}
