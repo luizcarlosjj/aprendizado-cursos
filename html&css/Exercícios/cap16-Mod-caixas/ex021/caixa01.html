@@ -10,18 +10,32 @@
       background-color: aqua;
       height: 300px;
       width: 300px;
-      border-width: 10px;
+      /*Estilização sem shorthand
+        border-width: 10px;
+        border-style: solid;
+        border-color: rgb(156, 91, 11);
+      Estilização com shorthand(para todo resto)*/
+      border: 10px solid rgb(156, 91, 11);
+
+      padding: 10px 10px 10px 10px;
+      /*colocar apenas padding: 10 ele adiciona para todos os lados*/
+
+      margin: ;
+
+      outline-width: 5px;
+      outline-style: dashed;
+      outline-color: blueviolet;
+      
+    }
+    a {
+      border-width: 5px;
       border-style: solid;
-      border-color: bisque;
+      border-color: red;
+
       padding-top: 10px;
       padding-right: 10px;
       padding-left: 10px;
       padding-bottom: 10px;
-    }
-    a {
-      border-width: 10px;
-      border-style: solid;
-      border-color: red;
     }
     
   </style>
