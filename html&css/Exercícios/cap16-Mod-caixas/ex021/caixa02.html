@@ -9,40 +9,52 @@
     body {
       font-family: sans-serif;
       background-color: burlywood;
-      margin: 0px;
+      margin: 0px; /*Retirando a margin toda do site*/
     }
+
     header {
       background-color: white;
       padding: 10px;
       margin: 10px;
     }
+
     nav {
       background-color: rgb(131, 131, 131);
       padding: 3px;
+      /*Sombra na Caixa*/
       box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.493);
     }
+
     nav > a {
       color: white;
       font-weight: bold;
       text-decoration: none;
       margin-right: 30px;
     }
+
     nav > a:hover {
       color: burlywood;
       text-decoration: underline;
     }
+
     main {
       background-color: white;
       padding: 10px;
       margin: 10px;
+      /*Borda Arredondada*/
+      border-radius: 10px 0px;
+      box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.493);
     }
+
     article{
       background-color: lightgray;
       padding: 5px;
     }
+
     article > aside {
       background-color: rgb(129, 129, 129);
     }
+
     footer {
       background-color: black;
       color: white;
@@ -50,9 +62,21 @@
       padding: 4px;
       margin: 0px;
     }
+
     footer > p {
       margin: 0px;
     }
+    
+    /* Como fazer uma bola com o borde-radius e uma div
+
+      #bola {
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        margin: 10px;
+        border-radius: 50%;
+
+    }*/
   </style>
 </head>
 <body>
@@ -66,10 +90,9 @@
       <a href="#">Link</a>
     </nav>
   </header>
-
   <main>
     <section id="assuntos">
-
+      <p>Esportes Polítia e tecnologia </p>
     </section>
 
     <section id="noticias">
@@ -86,9 +109,10 @@
       </article>
     </section>
   </main>
-
   <footer>
     <p>desenvolvido por mim!</p>
   </footer>
+
+  <div id="bola"></div>
 </body>
 </html>
