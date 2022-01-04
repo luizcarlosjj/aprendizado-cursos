@@ -7,6 +7,11 @@
   font-weight: normal;
 }
 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 :root {
   --cor0: #c5ebd6;
   --cor1: #83e1ad;
