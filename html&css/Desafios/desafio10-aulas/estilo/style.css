@@ -30,18 +30,34 @@ body {
   font-family: var(--fonte-padrao);
 }
 header {
-  background-color: var(--cor4);
+  background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+  min-height: 150px;
+  text-align: center;
+  padding-top: 40px;
 }
+
 header > h1 {
   color: white;
   font-family: var(--fonte-destaque);
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.623);
 }
+
 header > p {
+  font-family: var(--fonte-padrao);
+  font-size: 1.2em;
   color: white;
+  max-width: 600px;
+  margin: auto;
+  padding-right: 10px;
+  padding-left: 10px;
 }
+
 nav {
   background-color: var(--cor5);
 }
+
 main {
   min-width: 300px;
   max-width: 1000px;
