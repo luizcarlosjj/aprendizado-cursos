@@ -29,6 +29,9 @@ body {
   background-color: var(--cor0);
   font-family: var(--fonte-padrao);
 }
+
+
+
 header {
   background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
   min-height: 150px;
@@ -91,11 +94,19 @@ main h1 {
 main h2 {
   font-family: var(--font-android);
 }
+
+main p {
+  margin: 15px 0px;
+  text-align: justify;
+  text-indent: 30px;
+  line-height: 1em;
+}
+
 main img {
   width: 100%;
 }
 main img.pequena {
-  width: 50%;
+  max-width: 350px;
   display: block;
   margin: auto;
 }
